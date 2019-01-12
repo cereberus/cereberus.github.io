@@ -1,1 +1,36 @@
-theme: jekyll-theme-modernist
+name: White Paper
+description: >
+    A simple jekyll theme aimed at programmers who like clean interface to write posts
+    and show off some code.
+about: >
+    My testing page published under a pseudonym.
+master_repo: false
+url: "http://cereberus.github.io/white-paper"
+markdown: kramdown
+highlighter: rouge
+
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+
+paginate: 4
+
+logo:             logo.png
+disqus_shortname:
+
+rtl: false
+owner:
+  name:           whitepaper
+  avatar:         "https://avatars2.githubusercontent.com/u/10389507?s=400&v=4"
+  email:          "cereberusjm@protonmail.com"
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: vinitkme
+  github: https://github.com/cereberus
+  stackexchange: https://stackoverflow.com/users/dummy_text
+  linkedin: https://www.linkedin.com/dummy_text
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
